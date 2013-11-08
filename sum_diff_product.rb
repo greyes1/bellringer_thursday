@@ -1,5 +1,11 @@
-numberOne = gets.chomp.to_i
-numberTwo = gets.chomp.to_i
-puts "#{numberOne + numberTwo}"
-puts "#{numberOne - numberTwo}"
-puts "#{numberOne * numberTwo}"
+def method_name
+	numberOne, numberTwo = gets.split(" ")
+	realNumberOne = numberOne.to_i
+	realNumberTwo = numberTwo.to_i
+
+	puts realNumberOne+realNumberTwo
+	puts realNumberOne-realNumberTwo
+	puts realNumberOne*realNumberTwo
+end
+
+method_name
