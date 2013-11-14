@@ -1,4 +1,4 @@
-def method_name
+class MyClass
 	numberOne, numberTwo = gets.split(" ")
 	realNumberOne = numberOne.to_i
 	realNumberTwo = numberTwo.to_i
@@ -8,4 +8,4 @@ def method_name
 	puts realNumberOne*realNumberTwo
 end
 
-method_name
+MyClass
